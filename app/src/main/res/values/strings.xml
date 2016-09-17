@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AboutRobot2016</string>
+    <string name="txt1">Hola humano. Es un placer conocerte.</string>
+    <string name="btn1">No apretes el boton</string>
+    <string name="txt2">Humano te dije que no le dieras al boton. Ahora lo has eliminado.</string>
+</resources>

@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.anima.aboutrobot2016.MainRobot">
+    tools:context="com.example.anima.aboutrobot2016.MainRobot"
+    android:background="@android:color/holo_blue_light">
 
 
     <TextView
@@ -16,16 +17,24 @@
         android:text="@string/txt1"
         android:id="@+id/txt"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_marginTop="30dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn1"
         android:id="@+id/btn"
-        android:layout_marginTop="42dp"
+        android:background="@color/bright_foreground_material_dark"
+        android:textColor="@color/abc_search_url_text_selected"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
         android:layout_below="@+id/txt"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
 
     <ImageView
         android:layout_width="wrap_content"

@@ -35,6 +35,7 @@ public class MainRobot extends Activity {
                 contador++;
 
                 if(contador == 1){
+                    //cambia la imagen
                     img.setImageResource(R.drawable.robot2);
                     txt.setText(R.string.txt2);
                     btn.setText(R.string.btn2);
@@ -42,6 +43,7 @@ public class MainRobot extends Activity {
 
                 if(contador == 2){
                     txt.setText(R.string.txt3);
+                    //hace invisible el boton
                     btn.setVisibility(View.INVISIBLE);
                 }
             }

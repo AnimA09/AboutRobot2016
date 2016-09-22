@@ -37,6 +37,7 @@ public class MainRobot extends Activity {
                 if(contador == 1){
                     //cambia la imagen
                     img.setImageResource(R.drawable.robot2);
+                    //cambia el texto del TextView y del button
                     txt.setText(R.string.txt2);
                     btn.setText(R.string.btn2);
                 }

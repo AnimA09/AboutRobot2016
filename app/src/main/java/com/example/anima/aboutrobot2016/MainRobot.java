@@ -1,12 +1,13 @@
 package com.example.anima.aboutrobot2016;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainRobot extends AppCompatActivity {
+public class MainRobot extends Activity {
 
     private Button btn;
     private TextView txt;
